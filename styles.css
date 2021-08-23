@@ -1,0 +1,163 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+    align-items: center;
+    background-color: #1EE3CF;
+    color:#0D3F67
+}
+
+
+body {
+    font-family: 'Crimson Text', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    /* font-size: 15px; */
+    background-color: #F2F4F6;
+    margin: 0;
+    padding: 0;
+    letter-spacing:  1.3px;
+    }
+
+* { 
+    box-sizing: border-box;
+    /* justify-content:space-around; */
+   }
+
+h1 {
+    font-size: 34px;
+    font-weight: bold;
+    }
+
+
+h3 {
+    color:#7868E6 ;
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 0;
+}
+    
+p { 
+    color: rgb(1, 1, 2); 
+    font-weight: bold;
+    font-size: 0.75em;
+    /* text-indent: 50px; */
+    margin: 0;
+    margin-right: 10%;
+    text-align: justify;
+    }
+
+
+.sup_element { color: #2a3655; }
+/*sup.sup_element - stylujemy element sup  o nazwie klasy sup_element - można tego używać alternatywnie, lub wtedy gdy sup ma kilka klas i chcemy wystylowac tylko tę jedną.*/
+
+mark{
+    border-radius: 5px;
+}
+
+div#main-content{
+    background-color: #F2F4F6;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+   
+    ;
+    
+    /* border-style: solid; */
+    /* flex-direction: row-reverse ; */
+    /* flex-wrap: nowrap ; */
+    /* justify-content: flex-end; */
+}
+
+a{
+    font-size: 16px;
+    color:#0D3F67;
+}
+
+a:hover{
+    color: rgb(212, 61, 212);
+}
+/* pseudoklasa hover powoduje zmianę koloru elementu po najechaniu na niego kursorem np. na link */ 
+
+article{
+    margin-bottom: 80px;
+    font-size: 34px;
+}
+
+
+#articles {
+    flex-grow: 1;
+}
+
+
+table { 
+    /* text-align: center; */
+    
+    color: #0D3F67;
+    font-weight:bold;
+    font-size: 0.8em;
+    width: 300px;
+    height: 200px;
+   
+}
+
+#skills { 
+    font-size: 24px; 
+    font-weight: bold;
+    color:#6b48ff;
+    /* flex-grow: 2;
+    justify-content: space-between; */
+    /* align-self: center; */
+}
+
+table th{
+text-align: left;
+color: darkblue;
+font-size: 24px;
+font-weight: 900;
+margin:0;
+line-height: 200%;
+border-top: 5px solid #1EE3CF;
+}
+
+
+footer{
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: #1EE3CF;
+}
+
+
+footer p{
+    color:#0D3F67;
+}
+
+/* footer > p {
+    color:turquoise; background-color: rgb(32, 3, 56);} */
+
+
+
+@media screen and (min-width: 300px){
+        footer{
+            position: fixed;
+            
+        }
+    }
+    /* powyższa funkcja odpowiada za to, zeby stopka nie wyświetlała się, gdy mamy mniejszą rozdzielczość np na telefonach komórkowych gdzie ekran jest mały i stopka przytwierdzona na stale mogłaby zasłaniać treść strony */
+
+
+/* Colours palette:
+#F2F4F6 - szary
+#1EE3CF - turkus
+#6B48FF - fiolet
+#0D3F67 - granatowy */
